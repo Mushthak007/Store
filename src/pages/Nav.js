@@ -10,7 +10,7 @@ export default function Nav() {
                 <div>
                     <div className="flex items-center justify-between py-3 md:py-5 md:block">
                         <a href="javascript:void(0)">
-                            <h2 className="text-2xl font-bold text-white">Store</h2>
+                            <Link to='/' className="text-2xl font-bold text-white">Store</Link>
                         </a>
                         <div className="md:hidden">
                             <button
